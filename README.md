@@ -21,13 +21,7 @@ estate/
 
 ## Запуск сайту
 
-Відкрийте https://thugg6a6y.github.io/Estate-Project/)
-
-```bash
-cd estate
-python3 -m http.server 8080
-# http://localhost:8080
-```
+Відкрийте https://thugg6a6y.github.io/Estate-Project/
 
 ## Дизайн-система (Figma)
 
