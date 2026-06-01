@@ -19,9 +19,9 @@ estate/
 └── CONTRIBUTING.md
 ```
 
-## Локальний запуск
+## Запуск сайту
 
-Відкрийте `index.html` у браузері або через локальний сервер:
+Відкрийте https://thugg6a6y.github.io/Estate-Project/)
 
 ```bash
 cd estate
