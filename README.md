@@ -1,6 +1,18 @@
 # Hadzhalov Estate
 
 Головна сторінка агенції нерухомості (верстка за макетом [Estatein — Produce UI, dark theme](https://www.figma.com/design/ZtzhjF1nEqnZWJqMqlenbx/Real-Estate-Business-Website-UI-Template---Dark-Theme-%7C-Produce-UI--Community-)).
+## Опис проєкту
+
+Hadzhalov Estate — це односторінковий сайт (landing page) агенції нерухомості в Києві. На головній сторінці представлені преміальні житлові комплекси: Tetris Hall, Manhattan City, Taryan Towers та Time. Сайт виконаний у темній темі за макетом Figma (шаблон Estatein від Produce UI) і містить основні блоки: шапку з навігацією, hero-секцію, послуги, каталог ЖК з описами та цінами, відгуки клієнтів, блок FAQ, заклик до дії та підвал з формою підписки та посиланнями. Інтерфейс українською мовою.
+
+## Технології
+
+HTML5 — семантична розмітка (header, nav, main, section, article, footer тощо)
+CSS3 — верстка без фреймворків; модульна структура стилів (базові стилі, компоненти, окремі файли для кожної секції)
+CSS-змінні (custom properties) — кольори, відступи та типографіка з макету Figma
+Google Fonts (Urbanist) — шрифт з макету
+Git / Git Flow — гілки main, develop, feature/* для роботи по секціях та pull request’и
+Локальні зображення (PNG) — візуалізації житлових комплексів у папці assets
 
 ## Структура проєкту
 
