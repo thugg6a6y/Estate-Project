@@ -1,0 +1,30 @@
+.surface-card {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card-lg);
+}
+
+.surface-card:hover {
+  border-color: var(--color-border-hover);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2xs);
+}
+
+.tag-list__item {
+  padding: var(--space-2xs) var(--space-xs);
+  font-size: var(--font-size-label);
+  color: var(--color-text-secondary);
+  background-color: var(--color-bg-page);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-button);
+}
+
+.rating {
+  color: var(--color-star);
+  font-size: 1.125rem;
+  letter-spacing: 0.125rem;
+}

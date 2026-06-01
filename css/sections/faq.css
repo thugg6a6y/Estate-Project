@@ -1,0 +1,27 @@
+.faq__grid {
+  margin-bottom: 0;
+}
+
+.faq-card {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.faq-card__question {
+  font-size: 1.125rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  line-height: 1.35;
+}
+
+.faq-card__answer {
+  font-size: var(--font-size-caption);
+  flex-grow: 1;
+}
+
+.faq-card .button {
+  align-self: flex-start;
+  margin-top: auto;
+}

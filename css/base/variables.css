@@ -1,0 +1,73 @@
+/**
+ * Design tokens — Figma «Estatein» (Produce UI, dark theme)
+ * Frame width: 1920px | Content: 1296px | Side padding: 162px
+ */
+:root {
+  /* Colors */
+  --color-bg-page: #141414;
+  --color-bg-card: #1a1a1a;
+  --color-bg-elevated: #191919;
+  --color-border: #262626;
+  --color-border-hover: #333333;
+  --color-accent: #703bf7;
+  --color-accent-hover: #8254f8;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #999999;
+  --color-text-tertiary: #7a7a7a;
+  --color-star: #ffd700;
+  --color-accent-muted: rgba(112, 59, 247, 0.12);
+
+  /* Typography — Urbanist */
+  --font-family-base: "Urbanist", system-ui, sans-serif;
+  --font-size-h1: clamp(2.25rem, 4.5vw, 3.625rem);
+  --font-size-h2: clamp(1.75rem, 3vw, 2.5rem);
+  --font-size-h3: 1.25rem;
+  --font-size-body: 1.125rem;
+  --font-size-body-sm: 1rem;
+  --font-size-caption: 0.875rem;
+  --font-size-label: 0.8125rem;
+  --line-height-tight: 1.2;
+  --line-height-heading: 1.25;
+  --line-height-body: 1.5;
+  --letter-spacing-heading: -0.02em;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing (Figma autolayout scale) */
+  --space-2xs: 8px;
+  --space-xs: 12px;
+  --space-sm: 16px;
+  --space-md: 20px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 80px;
+  --space-section-y: 100px;
+  --space-header-y: 20px;
+
+  /* Layout */
+  --container-max: 1296px;
+  --container-padding-x: clamp(1.5rem, 8.4375vw, 10.125rem);
+  --grid-gap-cards: var(--space-md);
+  --grid-gap-section: var(--space-2xl);
+
+  /* Radius */
+  --radius-button: 10px;
+  --radius-card: 12px;
+  --radius-card-lg: 16px;
+  --radius-hero-image: 20px;
+  --radius-nav: 12px;
+  --radius-pill: 999px;
+
+  /* Components */
+  --button-padding-y: 14px;
+  --button-padding-x: 24px;
+  --button-padding-sm-y: 12px;
+  --button-padding-sm-x: 20px;
+  --button-padding-lg-y: 18px;
+  --button-padding-lg-x: 32px;
+  --header-blur: 12px;
+  --transition-base: 0.2s ease;
+  --z-header: 100;
+}

@@ -1,0 +1,21 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+}
+
+.logo__mark {
+  width: 2.25rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+  background-color: var(--color-accent);
+  border-radius: 50% 50% 50% 12%;
+  transform: rotate(-15deg);
+}
+
+.logo__name {
+  max-width: 10rem;
+}
