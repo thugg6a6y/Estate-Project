@@ -5,7 +5,7 @@
 ## Структура проєкту
 
 ```
-estatein/
+estate/
 ├── index.html              # Семантична розмітка сторінки
 ├── css/
 │   ├── main.css            # Точка входу (імпорти модулів)
@@ -24,7 +24,7 @@ estatein/
 Відкрийте `index.html` у браузері або через локальний сервер:
 
 ```bash
-cd estatein
+cd estate
 python3 -m http.server 8080
 # http://localhost:8080
 ```
